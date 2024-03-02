@@ -7,6 +7,16 @@ a {
     text-decoration: none;
 } 
 
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1158px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-left: 
+    margin-right:
+}
 /* logo menu addres */
 
 .logo-nav {
