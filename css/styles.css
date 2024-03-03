@@ -9,15 +9,36 @@ a {
 
 ul {
     list-style: none;
+    padding-inline-start: 0;
+    
 }
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
-    max-width: 1158px;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-left: 
-    margin-right:
+    max-width: 1440px;  
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
 }
 /* logo menu addres */
+.header {
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+.list-nav {
+    display: flex;
+    gap: 8px;
+}
 
 .logo-nav {
     font-family: "Raleway", sans-serif;
@@ -41,9 +62,12 @@ ul {
 }
 .logo {
     color: #2e2f42;
+    
 }
 .list {
     font-style: normal;
+    display: flex;
+    
 }
 .list-addres  {
     font-weight: 400;
@@ -51,6 +75,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 .list-addres:hover,
 .list-addres:focus {
@@ -61,6 +86,10 @@ ul {
 
 .section-one {
     background-color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 .title-section-one {
     font-weight: 700;
@@ -69,8 +98,11 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 0;
 }
-.button-section {
+.button-section-one {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     background-color: #4d5ae5;
@@ -79,20 +111,43 @@ ul {
     line-height: 1.5;
     color: #fff;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 68px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
 }
-.button-section:hover,
-.button-section:focus {
+.button-section-one:hover,
+.button-section-one:focus {
     background-color: #404BBF;
 }
 
 /*  section two  */
 
+.section-two {
+    
+}
+
+.section-two-list {
+    display: flex;
+    
+    
+}
 .title-section-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
+    text-align: center;
 }
 .name-section-two {
     font-weight: 500;
@@ -100,6 +155,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
 }
 .text-section-two {
     font-weight: 400;
@@ -107,15 +163,27 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
 }
 
 /* section three */
 
 .section-three {
 background-color: #F4F4FD;
+
 }
+
 .list-section-three {
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.item-section-three {
     background-color:  #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .title-section-three {
     font-weight: 700;
@@ -125,6 +193,10 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 0;
+    
 }
 .name-section-three {
     font-weight: 500;
@@ -132,6 +204,11 @@ background-color: #F4F4FD;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    
+
 }
 .text-section-three {
     font-weight: 400;
@@ -139,9 +216,19 @@ background-color: #F4F4FD;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+        
 }
 
 /* section four */
+
+.list-section-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .title-section-four {
     font-weight: 700;
@@ -151,6 +238,7 @@ background-color: #F4F4FD;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
 }
 .name-section-four {
     font-weight: 500;
@@ -158,6 +246,7 @@ background-color: #F4F4FD;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 .text-section-four {
     font-weight: 400;
@@ -165,6 +254,7 @@ background-color: #F4F4FD;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* footer */
