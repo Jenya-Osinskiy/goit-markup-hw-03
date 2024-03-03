@@ -57,11 +57,10 @@ img {
     
 }
 
-.item-nav {
-    padding-top: 24px;
-    padding-bottom: 24px;
+/* .item-nav {
     
-}
+    
+} */
 
 .logo-nav {
     font-family: "Raleway", sans-serif;
@@ -79,6 +78,8 @@ img {
     line-height: 1.5;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .head-nav:hover,
 .head-nav:focus {
