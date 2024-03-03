@@ -19,25 +19,29 @@ section {
 }
 
 .container {
-    max-width: 1440px;  
+    width: 1158px;  
     margin-left: auto;
     margin-right: auto;
+    
     
  
 }
 /* logo menu addres */
 .header {
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #e7e9fc;
 }
 .nav {
     display: flex;
     align-items: center;
+    gap: 76px;
 
 }
 .list-nav {
     display: flex;
-    gap: 8px;
+    gap: 40px;
 }
 
 .logo-nav {
@@ -67,6 +71,7 @@ section {
 .list {
     font-style: normal;
     display: flex;
+    gap: 40px;
     
 }
 .list-addres  {
@@ -76,12 +81,17 @@ section {
     letter-spacing: 0.02em;
     color: #434455;
     
+    
 }
 .list-addres:hover,
 .list-addres:focus {
     color: #404bbf;
 }
 
+
+.main {
+max-width: 1440px;
+}
  /*  section one and button */
 
 .section-one {
@@ -132,12 +142,15 @@ section {
 /*  section two  */
 
 .section-two {
-    
+
 }
 
 .section-two-list {
-    display: flex;
     
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0;
     
 }
 .title-section-two {
@@ -146,8 +159,8 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: block;
     text-align: center;
+    display: none;
 }
 .name-section-two {
     font-weight: 500;
@@ -155,7 +168,8 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: block;
+    margin-top: 0;
+    margin-bottom: 8;
 }
 .text-section-two {
     font-weight: 400;
@@ -163,7 +177,9 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: block;
+    width: 264px;
+    margin-top: 8;
+    margin-bottom: 0;
 }
 
 /* section three */
@@ -205,8 +221,8 @@ margin-bottom: 0;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 8px;
+    padding-top: 32px;
+    margin: 0;
     
 
 }
@@ -217,8 +233,9 @@ margin-bottom: 0;
     color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 8px;
-    margin-bottom: 32px;
+    padding-top: 8px;
+    padding-bottom: 32px;
+    margin: 0;
         
 }
 
@@ -227,8 +244,18 @@ margin-bottom: 0;
 .list-section-four {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:center; 
+    gap: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
+
+.list-item {
+
+  
+}
+
 
 .title-section-four {
     font-weight: 700;
@@ -239,6 +266,8 @@ margin-bottom: 0;
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 .name-section-four {
     font-weight: 500;
@@ -246,21 +275,36 @@ margin-bottom: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    
 }
+
 .text-section-four {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
-    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    
 }
 
 /* footer */
 
 .down {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    
+    
 }
 
 .link-down {
@@ -282,5 +326,9 @@ margin-bottom: 0;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 16px;
+    
 }
-
