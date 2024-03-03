@@ -18,6 +18,9 @@ section {
     padding-bottom: 120px;
 }
 
+img {
+    display: block;
+}
 .container {
     width: 1158px;  
     margin-left: auto;
@@ -89,15 +92,13 @@ section {
 }
 
 
-.main {
-max-width: 1440px;
-}
+
  /*  section one and button */
 
 .section-one {
     background-color: #2e2f42;
-    display: flex;
-    flex-direction: column;
+    
+    padding: 188px 0
     
     
 }
@@ -108,10 +109,9 @@ max-width: 1440px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
-    justify-content: center;
-    margin-top: 68px;
-    margin-bottom: 0;
+    max-width: 496px;
 }
+
 .button-section-one {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
@@ -122,14 +122,12 @@ max-width: 1440px;
     color: #fff;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
-    margin-top: 48px;
-    margin-bottom: 68px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+
 
     
     
