@@ -27,6 +27,7 @@ img {
     padding: 0 15px;
     
     
+    
  
 }
 /* logo menu addres */
@@ -38,6 +39,8 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
@@ -49,11 +52,15 @@ img {
 .list-nav {
     display: flex;
     gap: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
 .item-nav {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 
 .logo-nav {
@@ -81,6 +88,11 @@ img {
     color: #2e2f42;
     
 }
+
+.address {
+    display: flex;
+}
+
 .list {
     font-style: normal;
     display: flex;
@@ -167,6 +179,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;   
+    margin-bottom: 8px;
 }
 
 .visually-hidden {
