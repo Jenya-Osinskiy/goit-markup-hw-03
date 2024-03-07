@@ -32,6 +32,14 @@ img {
     
  
 }
+
+/* background-color: #2a2a2a;
+background-image: url(шлях до зображення);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; */
+
+
 /* logo menu addres */
 .header {
     border-bottom: 1px solid #e7e9fc;
